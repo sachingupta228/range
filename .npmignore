@@ -1,0 +1,27 @@
+# Logs
+*.log
+npm-debug.log
+
+# Dependency directory
+node_modules
+
+# Runtime data
+tmp
+
+dist
+
+# Examples
+example
+exampletypescript
+.metals
+config1.png                   
+config2.png                   
+config3.png                   
+config4.png                   
+config5.png                   
+config6.png                   
+config7.png                   
+config8.png                   
+demo1.png                     
+demo2.png                     
+demo3.png 

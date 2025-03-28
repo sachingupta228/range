@@ -1,0 +1,47 @@
+# Changelog
+- _August 1 2023_
+  - support for react navigation v6
+  - add more screen dimensions for iOS checks
+  - update example project to RN 0.72.1
+- _December 23 2021_
+  - fixed npm publish with empty dist folder bug
+- _December 11 2021_
+  - fixed the explicit version for the dependency on react navigation 5.9.0
+- _December 5 2021_
+  - fixed dependencies which caused the #81 and #62 bugs
+  - fixed typos and styled component units
+- _March 1 20201_
+  - fixed appearance prop typo (breaking change, so make sure you change it in your code when you update the package)
+  - fixed type for `activeTabBackgrounds` in `types.tsx`
+  - iPhone 12 support
+  - added RTL languages support
+- _February 6 20201_
+  - Fixed #71
+  - Added new changelog to separate file `Changelog.md`
+- _January 29 2021_
+  - Typescript support 👀 including custom enums for some of the appearance properties
+  - Added Rollup as a module bundler
+  - Fixed Invalid Hook Call bug #62
+  - Fixed `have your wrapper your NavigationContainer` bug. Please update to react-navigation/native 5.9.0, stack 5.13.0, bottom-tabs 5.11.3
+- _October 11 2020_
+  - Updated react-navigation dependencies in example folder to latest
+  - Fixed useScrollToTop bug
+  - Fix Tab bar overlays ScrollView content
+  - Added new config for icon button layout/orientation
+- _September 27 2020_
+  - Updated example to rn 0.63
+  - Fixed issue #37 where screens would re-render on every tab change. Also added the lazy option found in the default react navigation TabBar
+  - Fixed default props errors #34 and #35. The component doesn't require any appearance options to work. It will use default style. See docs how to change.
+  - Fixed issue with screen listeners #38 (you can now prevent default)
+  - Fixed small ui glitches
+- _April 19 2020_
+  - In order to run the examples, don't forget to `pod install` after `npm install`
+  - Glitch when using navigation.navigate() has been fixed!
+- _March 11 2020_
+- _June 25 2020_
+  - Upgrade to v3.0
+  - Add more customizations including, floating style, icon configs, label configs, and more.
+  - Fixed issues with changing screen orientation
+  - Fixed animation when provided initial screen
+  - Improved code quality, refactoring
+  - Implement a new [custom navigation](https://reactnavigation.org/docs/custom-navigators) builder
