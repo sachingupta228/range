@@ -4,7 +4,7 @@ import { Dimensions, Platform } from 'react-native';
 // https://github.com/ptelad/react-native-iphone-x-helper
 
 export function isIphoneX() {
-  const dimen = Dimensions.get('window');
+  let dimen = Dimensions.get('window');
   return (
     Platform.OS === 'ios' &&
     !Platform.isPad &&
