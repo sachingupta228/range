@@ -5,7 +5,7 @@ import resolve from 'rollup-plugin-node-resolve'
 import pkg from './package.json'
 
 /* exported rollup configuration */
-const config = {
+let config = {
   input: 'index.ts',
   output: [
     {
